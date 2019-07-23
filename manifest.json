@@ -1,0 +1,25 @@
+{
+
+  "manifest_version": 2,
+
+  "name": "Proxy on Youtube",
+  "description": " HTTPS Proxy on youtube.com",
+  "version": "1.0",
+  "background": {
+  "scripts":["proxy.js"]
+  },
+  "page_action": {
+        "default_icon": "icon.png",
+    },
+  "permissions": [
+        "tabs",
+        "http://*/*",
+        "https://*/*",
+        "notifications",
+        "contextMenus",
+        "history",
+        "background",
+        "proxy"
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
