@@ -2,7 +2,7 @@
  
 This chrome extension uses a proxy auto-config script to manage Chrome's proxy settings. 
 
-References: [chrome.proxy API](https://developer.chrome.com/extensions/proxy)
+**References:** [chrome.proxy API](https://developer.chrome.com/extensions/proxy)
 
 ```
   var config = {
@@ -25,3 +25,5 @@ References: [chrome.proxy API](https://developer.chrome.com/extensions/proxy)
 
 
 ```
+
+**Proxy list I use:** https://www.proxy-list.download/HTTPS
