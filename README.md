@@ -1,4 +1,4 @@
-# Youtube-Proxy
+# Youtube-Proxy <img style="float: right;" src="https://raw.githubusercontent.com/AzimsTech/Youtube-Proxy/master/icon48.png" />
  
 This chrome extension uses a proxy auto-config script to manage Chrome's proxy settings. 
 
