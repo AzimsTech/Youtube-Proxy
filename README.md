@@ -4,6 +4,8 @@ This chrome extension uses a proxy auto-config script to manage Chrome's proxy s
 
 **References:** [chrome.proxy API](https://developer.chrome.com/extensions/proxy)
 
+![Screenshot](https://i.imgur.com/wgaRnUZ.png)
+
 ```
   var config = {
     mode: "pac_script",
