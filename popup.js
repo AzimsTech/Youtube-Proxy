@@ -10,7 +10,14 @@ function click(e) {
     mode: "pac_script",
     pacScript: {
       // use proxy for specific domains
-      data: 'function FindProxyForURL(url, host) {if (shExpMatch(host, "*.googlevideo.com|*.youtube.com")) return "PROXY '+e.target.id+'"; return "DIRECT";}'
+      data: "function FindProxyForURL(url, host) {\n" +
+            "  if (shExpMatch(host, '*.googlevideo.com|*.youtube.com'))\n" +
+            "    return 'PROXY "+e.target.id+"';\n" +
+
+            
+            // by default use no proxy
+            "  return 'DIRECT';\n" +
+            "}"
     }
   };
   chrome.proxy.settings.set(
