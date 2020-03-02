@@ -28,4 +28,4 @@ This chrome extension uses a proxy auto-config script to manage Chrome's proxy s
 
 ```
 
-**Proxy list I use:** https://github.com/a2u/free-proxy-list
+**Proxy list I use:** https://github.com/clarketm/proxy-list thanks to [@clarketm](https://github.com/clarketm)
