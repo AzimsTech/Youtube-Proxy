@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
       loadProxy(this);
     }
   };
-  xmlhttp.open("GET", "https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt", true);
+  xmlhttp.open("GET", "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt", true);
   xmlhttp.send();
 
   // -------------------
